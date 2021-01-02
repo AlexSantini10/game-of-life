@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
     canvas.style.position = "absolute";
     canvas.style.border = '1px solid #EDEDED';
     canvas.style.borderRadius = '3px';
-
+ 
 
     rows = canvas.height/dim;
     cols = canvas.width/dim;
