@@ -12,6 +12,6 @@ Rules:
 - A cell remains alive if it has 2 or 3 living neighbors
  
 
-GitHub: https://github.com/AlexSantini10/GameOfLife
-Wikipedia: https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
-Test the game: https://gameoflife.alexsantini.repl.co/
+GitHub: https://github.com/AlexSantini10/GameOfLife                                                                          
+Wikipedia: https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life                                                              
+Test the game: https://gameoflife.alexsantini.repl.co/                                                       
