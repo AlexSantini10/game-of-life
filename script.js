@@ -43,6 +43,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     body.appendChild(canvas);
 
+    canvas.addEventListener('touchmove', (e) => { // Disable scroll on canvas
+        e.preventDefault();
+    }, false);
+
     //console.log(matrix);  // Debug
 
     ctx = canvas.getContext("2d");
@@ -72,8 +76,10 @@ document.addEventListener('DOMContentLoaded', () => {
     canvas.addEventListener("touchmove", function (e) {
         let touch = e.touches[0];
 
-        pos.x = touch.clientX; pos.x -= pos.x%dim;
-        pos.y = touch.clientY; pos.y -= pos.y%dim;
+        let rect = canvas.getBoundingClientRect()
+
+        pos.x = touch.clientX - rect.left; pos.x -= pos.x%dim;
+        pos.y = touch.clientY - rect.top; pos.y -= pos.y%dim;
 
         makeAlive(pos.y/dim, pos.x/dim);
         reDrawCanva(rows, cols);
@@ -86,6 +92,7 @@ document.addEventListener('DOMContentLoaded', () => {
         pos.y -= pos.y%dim;
 
     }); 
+
 
     initCanva(rows, cols, dim);
 });
