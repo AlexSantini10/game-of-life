@@ -6,7 +6,7 @@ It is a zero-play game, the evolution of the game is determined by the initial s
 Its purpose is to demonstrate how life-like behaviors can emerge from very simple rules, the underlying principle of ecobiology.
 
 
-**Rules:**
+**Rules:**  
 (Neighboring cells are the 8 cells that have an angle or side in common with the actual cell)
 - A cell dies from loneliness if it has fewer than 2 neighboring cells
 - A cell dies of overpopulation if it has more than 3 living cells nearby
@@ -18,7 +18,7 @@ Il Gioco della Vita è un automa cellulare sviluppato dal matematico inglese Joh
 É un gioco zero-play, l'evoluzione del gioco è determinata dallo stato iniziale della matrice.
 Il suo scopo è quello di dimostrare come comportamenti simili alla vita possono emergere da semplici regole, principio cardine dell'ecobiologia.
 
-**Regole:**
+**Regole:**  
 (Le celle vicine sono le 8 celle che hanno un angolo o un lato in comune con la cella a cui si fa riferimento)
 - Una cellula muore di solitudine se ha meno di due celle vive vicine
 - Una cella muore di sovrappopolamento se ha più di 3 celle vive vicine 
