@@ -29,4 +29,4 @@ Il suo scopo è quello di dimostrare come comportamenti simili alla vita possono
 ### Link:  
 **GitHub:** https://github.com/AlexSantini10/GameOfLife                                                                          
 **Wikipedia:** https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life                                                              
-**Test the game:** https://alexsantini10.github.io/GameOfLife/                                                      
+**Test the game:** https://alexsantini10.github.io/game-of-life/                                                     
