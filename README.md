@@ -1,4 +1,4 @@
-# GameOfLife
+# Game of life - Il gioco della vita
 
 **(EN)**
 The Game of Life is a cellular automaton devised by the British mathematician John Conway in 1970.
