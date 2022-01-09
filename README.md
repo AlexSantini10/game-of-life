@@ -13,6 +13,8 @@ Its purpose is to demonstrate how life-like behaviors can emerge from very simpl
 - A cell becomes alive if it has 3 living cells nearby
 - A cell remains alive if it has 2 or 3 living neighbors
 
+---
+
 **(IT)**
 Il Gioco della Vita è un automa cellulare sviluppato dal matematico inglese John Conway nel 1970.
 É un gioco zero-play, l'evoluzione del gioco è determinata dallo stato iniziale della matrice.
